@@ -1,0 +1,293 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	background-color: #000;
+}
+:root {
+	--transition: 1.75s cubic-bezier(.2, .6, 0, 1);
+}
+.slider {
+	height: 100%;
+}
+.slider__layer {
+	position: absolute;
+	inset: 0;
+	
+	background-position: center;
+	will-change: transform;
+	/* transition: var(--transition)!important; */
+}
+.slider__layer::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	box-shadow: inset 0 0 250px rgb(0 0 0 / .3);
+}
+.slider__item {
+	overflow: hidden;
+}
+.slider__wrapper {
+	will-change: transform;
+	transform-style: preserve-3d;
+	/* transition: var(--transition)!important; */
+}
+.ptextpar{
+	position: absolute;
+width: 1126px;
+height: 216px;
+left: 95px;
+top: 33px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 700;
+font-size: 160px;
+line-height: 216px;
+/* identical to box height */
+
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+mix-blend-mode: exclusion;
+}
+.nav__toggle {
+  font-size: 3.5rem;
+  color: var(--white-color);
+  cursor: pointer;
+  position: absolute;
+  color: white;
+}
+ #okno {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 15px;
+       font-size: 2.5rem;
+color:white;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      
+        margin: auto;
+        background: rgba(0, 0, 0, 0.7);
+      }
+      #okno:target {display: block;}
+      .close {
+      	position: absolute;
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: white;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+       background: rgba(0, 0, 0, 0.7);
+        font-size: 14pt;
+        cursor:pointer;  font-size: 1.5rem;
+ 
+      }
+      .close:hover {background: #e6e6ff;}
+.ptextgl{
+	position: absolute;
+width: 1174px;
+height: 386px;
+left: -18px;
+top: 225px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 140px;
+line-height: 163px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.06em;
+
+background: radial-gradient(76.7% 556.13% at 87.14% 21.67%, rgba(0, 0, 0, 0) 34.23%, rgba(0, 0, 0, 0.2) 52.42%, rgba(0, 0, 0, 0) 66.77%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+mix-blend-mode: difference;
+}
+.ptextglam{
+
+	position: absolute;
+
+left: 6px;
+top: 432px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 800;
+font-size: 220px;
+line-height: 98.2%;
+/* identical to box height, or 295px */
+
+text-align: center;
+
+mix-blend-mode: normal;
+-webkit-text-stroke:5px solid #FFFFFF;
+
+}
+.ptextglam1{
+	position: absolute;
+width: 1717px;
+height: 295px;
+left:-85px;
+top: 232px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 800;
+font-size: 235px;
+line-height: 98.2%;
+/* identical to box height, or 295px */
+
+text-align: center;
+color:#FFFFFF00;
+mix-blend-mode: normal;
+-webkit-text-stroke-width: 5px;
+            -webkit-text-stroke-color: white;
+
+
+}
+
+#img1{
+position: absolute;
+width: 416px;
+height: 593px;
+left: 55px;
+top: 55px;
+background-size: cover;
+ 
+}
+#img2{
+	position: absolute;
+width: 319px;
+height: 424px;
+left: 428px;
+top: 345px;
+background-size: cover;
+}
+#img3{
+	position: absolute;
+width: 358px;
+height: 587px;
+left: 624px;
+top: 81px;
+background-size: cover;
+}
+#img4{
+	position: absolute;
+width: 342px;
+height: 446px;
+left: 837px;
+top: 304px;
+background-size: cover;
+}
+#img5{
+	position: absolute;
+width: 215px;
+height: 266px;
+left: 1081px;
+top: 67px;
+background-size: cover;
+}
+#img6{
+
+	position: absolute;
+width: 314px;
+height: 411px;
+left: 1200px;
+top: 251px;
+background-size: cover;
+}
+
+
+
+
+.ptextguc{
+	position: absolute;
+width: 987px;
+height: 300px;
+left: 290px;
+top: 244px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 700;
+font-size: 250px;
+line-height: 300px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+-webkit-text-stroke-width: 4px;
+            -webkit-text-stroke-color: #C6B0B0;
+mix-blend-mode: normal;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ptextguc1{
+	position: absolute;
+width: 987px;
+height: 300px;
+left: 314px;
+top: 252px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 700;
+font-size: 250px;
+line-height: 300px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.1);
+-webkit-text-stroke-width: 4px;
+            -webkit-text-stroke-color: #C6B0B0;
+mix-blend-mode: normal;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ptextguc2{
+
+	position: absolute;
+width: 987px;
+height: 300px;
+left: 304px;
+top: 250px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 700;
+font-size: 250px;
+line-height: 300px;
+/* identical to box height */
+
+
+color: #1B1A1A;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#mouse{
+	width: 100px;
+	height: 75px;
+	background-size: cover;
+}
+
+a{
+color: var(--white-color);
+\text-decoration: none;
+}
