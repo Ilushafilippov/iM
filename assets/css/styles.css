@@ -102,11 +102,11 @@ color: #FFFFFF;
   }
 @font-face {
   font-family: 'TT travels'; 
-  src: url('../assets/fonts/TTTravels-Regular.ttf'); 
+  src: url('../fonts/TTTravels-Regular.ttf'); 
 }
 @font-face{
   font-family: 'TT travels EXTRA'; 
-  src: url('../assets/fonts/TTTravels-ExtraBold.ttf'); 
+  src: url('../fonts/TTTravels-ExtraBold.ttf'); 
 }
 }
 @font-face {
@@ -269,7 +269,7 @@ img {
 .nav__logo {
  width: 90px;
  height: 90px;
-  background-image: url("../img/значек.png");
+  background-image: url('../img/значек.png');
 }
 
 .nav__item {
