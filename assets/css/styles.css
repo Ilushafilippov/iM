@@ -102,16 +102,16 @@ color: #FFFFFF;
   }
 @font-face {
   font-family: 'TT travels'; 
-  src: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/fonts/TTTravels-Regular.ttf); 
+  src: url('../fonts/TTTravels-Regular.ttf'); 
 }
 @font-face{
   font-family: 'TT travels EXTRA'; 
-  src: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/fonts/TTTravels-ExtraBold.ttf); 
+  src: url('../fonts/TTTravels-ExtraBold.ttf'); 
 }
 }
 @font-face {
   font-family: 'Iter Extra'; 
-  src: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/fonts/17343.ttf); 
+  src: url('../fonts/17343.ttf'); 
 }
 .teni{
 position: absolute;
@@ -269,7 +269,7 @@ img {
 .nav__logo {
  width: 90px;
  height: 90px;
-  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/значек.png");
+  background-image: url('../img/значек.png');
 }
 
 .nav__item {
@@ -320,17 +320,17 @@ img {
 }
 
 .home__parallax-img2 {
-  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/imgm.png");
+  background-image: url('../img/imgm.png');
   z-index: var(--z-tooltip);
 }
 
 .home__parallax-img3 {
-  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/img.png");
+  background-image: url('../img/img.png');
   z-index: var(--z-fixed);
 }
 
 .home__parallax-img4 {
-  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/img.png");
+  background-image: url('../img/img.png');
   z-index: var(--z-fixed);
 }
 
@@ -380,7 +380,7 @@ img {
 
 /*===== SECTION =====*/
 .l-section {
-  background-image:url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/fongl1.png) ;
+  background-image:url('../img/fongl1.png') ;
 
         background-size: cover;
 }
@@ -535,7 +535,7 @@ letter-spacing: 10px;
   
   background-position: top;
   will-change: transform;
-background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/fill.png);
+background-image: url('../img/fill.png');
 
 }
 input{
@@ -655,7 +655,7 @@ mix-blend-mode: color-burn;
 }
 .form_fon{
 width: 100%;
-background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/Форма.png);
+background-image: url('../img/Форма.png');
 height: 100%;
 position: absolute;
   background-repeat: no-repeat;
@@ -758,7 +758,7 @@ color:white;
       }
       .cont_fon{
         width: 100%;
-background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/Контакты.png);
+background-image: url('../img/Контакты.png');
 height: 100%;
 position: absolute;
   background-repeat: no-repeat;
@@ -823,7 +823,7 @@ mix-blend-mode: difference;
 }
 .curs_fon{
    width: 100%;
-background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/курсы.png);
+background-image: url('../img/курсы.png');
 height: 100%;
 position: absolute;
   background-repeat: no-repeat;
@@ -840,7 +840,7 @@ top: 152px;background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: black;
-background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/курсыф.jpg);
+background-image: url('../img/курсыф.jpg');
 }
 .zktd{
   position: absolute;
