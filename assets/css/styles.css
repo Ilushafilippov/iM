@@ -1,0 +1,913 @@
+/*===== GOGGLE FONTS =====*/
+
+/*===== VARIABLES SCSS =====*/
+/*===== VARIABLES CSS =====*/
+/*=== Colores ===*/
+:root {
+  --first-color: #0396A6;
+ 
+  --white-color: #F2F2F2;
+}
+ .Pform{
+    margin-right: auto;
+  }
+  h5{
+
+margin-right: 4.2rem;
+
+  }
+ 
+  h6{
+    margin-right: 3.5rem;
+
+  }
+  
+  .nizz_number{
+     position: absolute;
+  top: 94%;
+  width: 100%;
+  left: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  
+position: absolute;
+
+width: 600px;
+height: 40px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 98.2%;
+/* or 20px */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;  color: var(--white-color);
+
+
+
+
+  z-index: var(--z-modal);
+  }
+ 
+ 
+
+
+  .niz_number{
+
+  color: var(--white-color);
+   position: absolute;
+  top: 94%;
+  width: 100%;
+  left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  
+position: absolute;
+width: 300px;
+height: 79px;
+left: 53px;
+
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 98.2%;
+/* identical to box height, or 79px */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+
+
+  z-index: var(--z-modal);
+  }
+@font-face {
+  font-family: 'TT travels'; 
+  src: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/fonts/TTTravels-Regular.ttf); 
+}
+@font-face{
+  font-family: 'TT travels EXTRA'; 
+  src: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/fonts/TTTravels-ExtraBold.ttf); 
+}
+}
+@font-face {
+  font-family: 'Iter Extra'; 
+  src: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/fonts/17343.ttf); 
+}
+.teni{
+position: absolute;
+width: 1288px;
+height: 245px;
+
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 600;
+font-size: 250px;
+line-height: 98.2%;
+/* or 245px */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
+
+mix-blend-mode: soft-light;}
+
+.teni1{
+ position: absolute;
+width: 1282.95px;
+height: 217.71px;
+top: 18px;
+
+
+
+
+filter: blur(20px);
+}
+/*=== Fuente y tipografia ===*/
+:root {
+  --body-font: 'TT travels' ;
+  --biggest-font-size: 3.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 250px;
+    --h2-font-size: 35;
+    --normal-font-size: 1rem;
+  }
+}
+.niz_number__parallax{ width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.nizz_number__parallax{ width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+/*=== z index ===*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*===== BASE =====*/
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'TT travels';
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+
+  height: auto;
+}
+
+/*===== LAYOUT =====*/
+.bd-grid {
+  max-width: 1200px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.l-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: var(--z-modal);
+}
+
+/*===== NAVBAR =====*/
+.nav {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    left: 0%;
+    top: -100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 40%;
+    padding: 2rem;
+    text-align: center;
+    z-index: var(--z-fixed);
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+}
+
+.nav__logo {
+ width: 90px;
+ height: 90px;
+  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/значек.png");
+}
+
+.nav__item {
+  margin-bottom: 2rem;
+}
+.niz__nuber{
+
+  color: var(--white-color);
+  width: 10%;
+
+
+}
+.nav__link {
+  color: var(--white-color);
+  width: 10%;
+}
+
+.nav__toggle {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+/*=== Show menu ===*/
+.show {
+  top: 3rem;
+}
+
+/*===== HOME =====*/
+.home {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.home__parallax {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home__parallax-img1 {
+  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/Главная.png");
+  z-index: var(--z-normal);
+}
+
+.home__parallax-img2 {
+  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/imgm.png");
+  z-index: var(--z-tooltip);
+}
+
+.home__parallax-img3 {
+  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/img.png");
+  z-index: var(--z-fixed);
+}
+
+.home__parallax-img4 {
+  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/img.png");
+  z-index: var(--z-fixed);
+}
+
+.home__title, .home__subtitle {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--white-color);
+}
+
+.home__title {
+  top: 32%;
+
+  font-size: var(--biggest-font-size);
+  z-index: var(--z-normal);
+}
+
+.home__subtitle {
+  top: 44%;
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  z-index: var(--z-tooltip);
+}
+
+.home__scroll {
+  position: absolute;
+  bottom: 2.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+  z-index: var(--z-modal);
+}
+
+.home__scroll .bx-mouse {
+  color: var(--white-color);
+}
+
+/*===== SECTION =====*/
+.l-section {
+  background-image:url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/fongl1.png) ;
+
+        background-size: cover;
+}
+
+.section {
+  height: 100vh;
+  max-width: 950px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 2rem 0;
+  color: var(--white-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__data {
+  margin-bottom: 1rem;
+}
+
+.section__title {position: absolute;
+
+position: absolute;
+bottom: 40%;
+left: 50%;
+
+font-family: 'TT Travels EXTRA';
+font-style: normal;
+font-weight: 800;
+font-size: 120px;
+line-height: 98.2%;
+/* or 157px */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+.section__title1 {position: absolute;
+filter: blur(35px);
+position: absolute;
+bottom: 40%;
+left: 50%;
+
+font-family: 'TT Travels EXTRA';
+font-style: normal;
+font-weight: 800;
+font-size: 120px;
+line-height: 98.2%;
+/* or 157px */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.6);
+
+}
+.section__text {
+   position: absolute;
+width: 580px;
+margin-top: 5rem;
+height: 100px;
+font-family: 'TT Travels EXTRA';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 98.2%;
+/* or 49px */
+margin-left: 2rem;
+
+text-align: center;
+
+color: #000000;
+  }
+
+.section__img {
+  width: 285px;
+  border-radius: .5rem;
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 760px) {
+
+  .nav__menu{
+    width: 100%;
+  }
+  .nav {
+    height: 4rem;
+    width: 100%;
+  }
+  .nav__list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+   margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center
+  }
+  .nav__item {
+    margin-right: 11rem;
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .home__title {
+    letter-spacing: 49px;
+    top: 35%;
+  }
+  .home__subtitle {
+letter-spacing: 10px;
+    top: 70%;
+    left: 30%;
+  }
+  .section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section__img {
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.fonovoe{
+  position: absolute;
+  inset: 0;
+  
+  background-position: top;
+  will-change: transform;
+background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/fill.png);
+
+}
+input{
+  width: 401px;
+height: 39px;
+ background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.3);
+border-radius: 16px;s
+}
+form{
+
+position: absolute;
+width: 500px;
+height: 650px;
+left: 900px;
+top: 60px;
+
+mix-blend-mode: normal;
+filter: drop-shadow(0px 4px 14px #C48E72);
+
+background: #E7D5C2;
+
+border-radius: 76px;
+}
+h4{
+
+  font-family: 'TT Travels';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 98.2%;
+/* identical to box height, or 79px */
+
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+margin:20px;
+}
+::placeholder{
+  font-family: 'TT Travels';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 98.2%;
+/* or 29px */
+
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #A9A9A9;
+}
+textarea{
+  border-radius: 40px;
+
+  width: 400px;
+  height: 120px;
+}
+.form1{width: 150px;
+  border-radius: 20px;
+  font-family: 'TT Travels';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 98.2%;
+/* or 29px */
+
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #A9A9A9;
+height: 40px;}
+.form2{width: 150px;
+   border-radius: 20px;
+   font-family: 'TT Travels';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 98.2%;
+/* or 29px */
+
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #A9A9A9;
+height: 40px;}
+
+
+
+.contt{
+  display: flex;
+  width: 100%;
+ 
+position: relative;
+}
+.contt section{
+
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.section2{
+  
+}
+.Ilusha{
+
+
+mix-blend-mode: color-burn;
+
+}
+.fon{
+  background-color: black;
+  width: 100%;
+  height: 1440px;
+}
+.form_fon{
+width: 100%;
+background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/Форма.png);
+height: 100%;
+position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+input{
+  background: #FFFFFF;
+width: 401px;
+height: 55px;
+font-size: 1.5em;
+text-align: center;
+border-radius: 50px;
+background-color: white;
+border-color:white;
+}
+textarea{
+  padding: 10px;
+    background: #FFFFFF;
+width: 401px;
+height: 155px;
+font-size: 1.5em;
+text-align: center;
+
+border-color:white;
+}
+button{
+  background: #FFFFFF;
+margin-left: 30px;
+font-size: 1.5em;
+text-align: center;
+border-radius: 50px;
+background-color: white;
+border-color:white;
+}
+.nav_toggle {
+  font-size: 3.5rem;
+  color:#3d271d;
+  cursor: pointer;
+ 
+
+}
+.nav___toggle {
+  font-size: 3.5rem;
+  color:#3d271d;
+  cursor: pointer;
+  position: absolute;
+ 
+
+}
+.nav___toggle :hover {
+  font-size: 3.5rem;
+  color:#3d271d;
+  cursor: pointer;
+  position: absolute;
+ transform: rotate(1.5turn);
+  transition: 3s;
+ 
+
+}
+#okno {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 15px;
+       font-size: 2.5rem;
+color:white;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      
+        margin: auto;
+        background: rgba(0, 0, 0, 0.7);
+      }
+      #okno:target {display: block;}
+      .close {
+        position: absolute;
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: white;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+       background: rgba(0, 0, 0, 0.7);
+        font-size: 14pt;
+        cursor:pointer;  font-size: 1.5rem;
+ 
+      }
+      .close:hover {background: #e6e6ff;}
+
+      .nav__itemt{
+        color:white;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      .cont_fon{
+        width: 100%;
+background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/Контакты.png);
+height: 100%;
+position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+      }
+    .CT{
+      position: absolute;
+
+height: 303px;
+left: 25px;
+top: 64px;
+
+
+
+
+font-size: 200px;
+
+/* identical to box height */
+
+letter-spacing: 0.20em;
+
+color: #FFFFFF;
+
+mix-blend-mode: difference;
+    }
+    .nav_t_toggle {
+  font-size: 3.5rem;
+  color:white;
+  cursor: pointer;
+ 
+
+}
+.CITY{
+  position: absolute;
+width: 631px;
+height: 85px;
+left: 900px;
+top: 307px;
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+
+
+color: #FFFFFF;
+
+
+}
+.zag{
+  color: white;
+mix-blend-mode: difference;
+  font-size: 60px;
+}
+.zagt{
+  font-size: 20px;
+  color: black;
+  margin-left:40px ;
+}
+.curs_fon{
+   width: 100%;
+background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/курсы.png);
+height: 100%;
+position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.fotoc{
+  position: absolute;
+width: 363px;
+height: 550px;
+left: 980px;
+top: 152px;background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+background-image: url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/курсыф.jpg);
+}
+.zktd{
+  position: absolute;
+  width: 500px;
+  height: 470px;
+  left: 490px;
+   line-height: 55px;
+top: 222px;
+}
+.zkurs{
+  position: absolute;
+left: 490px;
+top: 150px;
+
+font-family: 'TT Travels';
+font-style: normal;
+
+font-size: 40px;
+line-height: 98.2%;
+/* or 39px */
+
+
+
+color: #000000;
+}
+.zkurst{
+ 
+  font-size: 26px;
+
+
+}
+.knopkazkurs{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 17px 30px;
+gap: 10px;
+
+position: absolute;
+width: 380px;
+height: 60px;
+left: 14px;
+top: 390px;
+
+border: 2px solid #000000;
+border-radius: 100px;
+}
+.ktext{
+  font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 98.2%;
+/* or 39px */
+
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

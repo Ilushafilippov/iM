@@ -1,0 +1,73 @@
+<html>
+<head>
+
+<style> 
+ 
+body {
+  font-family: PT Astra Sans;
+  margin:1;
+}
+ ::-webkit-scrollbar {width:0px;}
+#container .type {
+  
+  position:relative;
+  display:inline-block;
+  top: 1px;
+  width:150vw;
+  height:99vh; 
+}
+#container .type > div {
+  position:relative;
+  width:99px;
+  height:99px;
+  color:#080808;
+  line-height:.8;
+  top:48%;
+  left:48%;
+  font-weight:bold;
+  font-size:96px;
+}
+#container {
+  position:absolute;
+  overflow-x:scroll;
+  overflow-y:scroll;
+
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color:#ccc;
+  width:99vh;
+  height:99vw;
+}
+#container2 {
+  transform: rotate(90deg) translateY(-98vh);
+  transform-origin: top left;
+  white-space:nowrap;
+  font-size:1;
+}
+ 
+.raz {
+  background-color: #00ff48;
+}
+.dva {
+  background-color: #ff00d5;
+}
+.tri {
+  background-color: #f00;
+}
+.nazad {
+  background-color: #fff71c;
+}
+
+</style>
+ </head>
+ 
+<div id="container">
+  <div id="container2">
+    <div class="type raz"><div>Раз</div></div>
+    <div class="type dva"><div>Два</div></div>
+    <div class="type tri"><div>Три</div></div>
+    <div class="type nazad"><div>Четыре</div></div>
+  </div>
+</div>
+ 
+</html>
