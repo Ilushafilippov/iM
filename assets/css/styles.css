@@ -325,12 +325,12 @@ img {
 }
 
 .home__parallax-img3 {
-  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/img.png");
+  background-image: url("assets/img/img.png");
   z-index: var(--z-fixed);
 }
 
 .home__parallax-img4 {
-  background-image: url("C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/img.png");
+  background-image: url("assets/img/img.png");
   z-index: var(--z-fixed);
 }
 
@@ -380,7 +380,7 @@ img {
 
 /*===== SECTION =====*/
 .l-section {
-  background-image:url(C:/Users/user/Desktop/parallax-scrolling-website-master/assets/img/fongl1.png) ;
+  background-image:url(assets/img/fongl1.png) ;
 
         background-size: cover;
 }
